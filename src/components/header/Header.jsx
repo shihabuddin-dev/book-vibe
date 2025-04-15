@@ -15,7 +15,7 @@ const Header = () => {
                         className="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-36 px-4 shadow bg-[#23BE0A] text-white text-sm">
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='/listed-books'>Listed Books</NavLink>
-                        <NavLink to='/pages-to-read'>Pages to Read</NavLink>
+                        <NavLink to='/page-to-read'>Page to Read</NavLink>
                     </ul>
                 </div>
                 <a className="text-xl md:text-2xl text-[#23BE0A] font-bold">Book Vive</a>
@@ -24,7 +24,7 @@ const Header = () => {
                 <ul className="menu menu-horizontal px-4 space-x-4 text-xl">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/listed-books'>Listed Books</NavLink>
-                    <NavLink to='/pages-to-read'>Pages to Read</NavLink>
+                    <NavLink to='/page-to-read'>Page to Read</NavLink>
                 </ul>
             </div>
             <div className="navbar-end flex gap-1 md:gap-2 ">

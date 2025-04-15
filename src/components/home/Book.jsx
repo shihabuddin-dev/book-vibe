@@ -16,12 +16,12 @@ const Book = ({ book }) => {
                     <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A0D] text-[#23BE0A]'>{first}</button>
                     <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A0D] text-[#23BE0A]'>{second}</button>
                     <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A0D] text-[#23BE0A]'>{third}</button>
-                    
+
                 </div>
                 <p className='text-xl font-semibold'>{name}</p>
                 <p className='text-lg'>Writer: {writer}</p>
                 <hr className='border-b-2 border-dashed text-[#F3F3F3]' />
-                <div className='flex justify-between'>
+                <div className='flex justify-between font-semibold'>
                     <p>{category}</p>
                     <p className='flex gap-2 items-center'>{rating} <IoIosStarHalf className='text-amber-500' /></p>
                 </div>
