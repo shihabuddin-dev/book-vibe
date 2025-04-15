@@ -1,5 +1,5 @@
-import React, { Suspense } from 'react';
 import { NavLink, useLoaderData } from 'react-router';
+
 import Book from './Book';
 
 const Home = () => {

@@ -7,10 +7,8 @@ const Book = ({ book }) => {
 
     return (
         <div className='border-2 border-[#F3F3F3] p-4 rounded-xl space-y-4'>
-
             <div className='bg-[#F3F3F3] rounded-xl'>
                 <img className='mx-auto py-4 cover object-cover' src={imageUrl} alt="book images" />
-
             </div>
 
             <div className='space-y-2'>
@@ -18,6 +16,7 @@ const Book = ({ book }) => {
                     <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A0D] text-[#23BE0A]'>{first}</button>
                     <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A0D] text-[#23BE0A]'>{second}</button>
                     <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A0D] text-[#23BE0A]'>{third}</button>
+                    
                 </div>
                 <p className='text-xl font-semibold'>{name}</p>
                 <p className='text-lg'>Writer: {writer}</p>

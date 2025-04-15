@@ -7,7 +7,10 @@
     "description": "A powerful and timely novel exploring themes of racism, police brutality, and finding your voice amidst tragedy. Inspired by the Black Lives Matter movement, it follows Starr Carter, who navigates two worlds: the poor, mostly black neighborhood where she lives and the wealthy, mostly white prep school she attends. Her life is shattered when she witnesses the fatal shooting of her unarmed childhood friend by a police officer.",
     "tags": ["Young Adult", "Social Justice", "Contemporary", "Activism", "Race"],
     "category": "Young Adult Fiction",
-    "rating": 4.7
+    "rating": 4.7,
+    "publication_name": "Balzer + Bray",
+    "publication_year": 2017,
+    "pages": 448
   },
   {
     "id": "bk002",
@@ -17,7 +20,10 @@
     "description": "An inspirational guide focused on deepening one's personal relationship with Jesus Christ through prayer, reflection, and scripture. This devotional aims to foster a closer connection with the divine, offering daily insights and practices to cultivate a more profound and abiding faith. Discover practical ways to integrate spiritual growth into everyday life.",
     "tags": ["Christianity", "Devotional", "Faith", "Spirituality", "Religion"],
     "category": "Religion & Spirituality",
-    "rating": 4.5
+    "rating": 4.5,
+    "publication_name": "FaithWorks Publishing",
+    "publication_year": 2021,
+    "pages": 280
   },
   {
     "id": "bk003",
@@ -27,7 +33,10 @@
     "description": "Dive into a chilling unsolved mystery. Follow detectives as they reopen a forgotten case, uncovering dark secrets and hidden motives long buried. As new evidence surfaces, the lines between past and present blur, forcing investigators to confront a killer who may still be lurking in the shadows. Expect twists and turns in this gripping suspense story.",
     "tags": ["Mystery", "Thriller", "Crime", "Cold Case", "Suspense", "Detective"],
     "category": "Mystery & Thriller",
-    "rating": 4.2
+    "rating": 4.2,
+    "publication_name": "Crimson Quill Press",
+    "publication_year": 2019,
+    "pages": 384
   },
   {
     "id": "bk004",
@@ -37,7 +46,10 @@
     "description": "An essential organizational tool for students navigating the scholarship application process. Track deadlines, requirements, and progress month by month to maximize funding opportunities. This planner provides structure and guidance, helping students stay on top of applications and reduce the stress of searching for financial aid.",
     "tags": ["Planner", "Education", "Students", "Scholarships", "Organization", "Academic"],
     "category": "Education & Reference",
-    "rating": 4.0
+    "rating": 4.0,
+    "publication_name": "Academic Press Solutions",
+    "publication_year": 2022,
+    "pages": 192
   },
   {
     "id": "bk005",
@@ -47,7 +59,10 @@
     "description": "Embark on an epic fantasy journey filled with mythical beasts, ancient magic, and a perilous quest along the legendary Spine of the Dragon mountains. Heroes must rise to face encroaching darkness, battling formidable foes and navigating treacherous landscapes. This tale weaves intricate world-building with high-stakes adventure.",
     "tags": ["Fantasy", "Adventure", "Magic", "Dragons", "Epic Fantasy", "Quest"],
     "category": "Fantasy",
-    "rating": 4.4
+    "rating": 4.4,
+    "publication_name": "Mythic Realms Books",
+    "publication_year": 2020,
+    "pages": 512
   },
   {
     "id": "bk006",
@@ -57,7 +72,10 @@
     "description": "Explore the teachings of Sakyong Mipham Rinpoche, delving into mindfulness, meditation, and the path to inner peace and enlightenment. This book offers insights into the Shambhala Buddhist tradition, guiding readers towards cultivating innate wisdom, compassion, and courage in their daily lives. Learn practical techniques for mindful living.",
     "tags": ["Buddhism", "Meditation", "Mindfulness", "Spirituality", "Philosophy", "Tibetan Buddhism"],
     "category": "Religion & Spirituality",
-    "rating": 4.6
+    "rating": 4.6,
+    "publication_name": "Dharma Light Press",
+    "publication_year": 2015,
+    "pages": 320
   },
   {
     "id": "bk007",
@@ -67,7 +85,10 @@
     "description": "Uncover the psychological barriers and limiting beliefs that might be hindering your financial success. A provocative look at our relationship with money, exploring subconscious attitudes and societal conditioning. This self-help guide aims to transform your money mindset, paving the way for greater abundance and financial freedom.",
     "tags": ["Finance", "Psychology", "Self-Help", "Money Mindset", "Personal Finance", "Wealth"],
     "category": "Business & Finance",
-    "rating": 3.9
+    "rating": 3.9,
+    "publication_name": "Prosperity Publishing",
+    "publication_year": 2023,
+    "pages": 256
   },
   {
     "id": "bk008",
@@ -77,7 +98,10 @@
     "description": "A comprehensive guide to understanding family-related tax laws and regulations, complete with detailed annotations and explanations. Navigate credits, deductions, and filing statuses specific to families with clarity. This essential resource helps taxpayers optimize their returns and ensure compliance with complex tax codes.",
     "tags": ["Taxes", "Law", "Finance", "Family Law", "Reference", "Accounting"],
     "category": "Law & Finance",
-    "rating": 4.1
+    "rating": 4.1,
+    "publication_name": "Fiscal Reference Group",
+    "publication_year": 2022,
+    "pages": 480
   },
   {
     "id": "bk009",
@@ -87,6 +111,9 @@
     "description": "A practical guide offering strategies and advice for men on navigating relationships, career, personal growth, and modern masculinity. Tackle challenges with actionable insights and develop a stronger sense of purpose and direction. This playbook provides tools for building a fulfilling and successful life in today's world.",
     "tags": ["Self-Help", "Men's Issues", "Relationships", "Personal Development", "Lifestyle", "Masculinity"],
     "category": "Self-Help",
-    "rating": 3.8
+    "rating": 3.8,
+    "publication_name": "Modern Man Press",
+    "publication_year": 2020,
+    "pages": 304
   }
 ]
