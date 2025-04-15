@@ -1,0 +1,14 @@
+a.active {
+    color: #23BE0A;
+    border: 1.5px solid #23BE0A;
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+a.pending {
+    color: blue;
+}
+
+a.transitioning {
+    view-transition-name: my-transition;
+}

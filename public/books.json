@@ -1,0 +1,83 @@
+[
+    {
+      "id": "bk001",
+      "name": "The Hate U Give",
+      "writer": "Angie Thomas",
+      "imageUrl": "https://i.postimg.cc/0jwjDDXq/kindpng-1064993.png",
+      "description": "A powerful and timely novel exploring themes of racism, police brutality, and finding your voice amidst tragedy. Inspired by the Black Lives Matter movement, it follows Starr Carter, who navigates two worlds: the poor, mostly black neighborhood where she lives and the wealthy, mostly white prep school she attends. Her life is shattered when she witnesses the fatal shooting of her unarmed childhood friend by a police officer.",
+      "tags": ["Young Adult", "Social Justice", "Contemporary", "Activism", "Race"],
+      "category": "Young Adult Fiction"
+    },
+    {
+      "id": "bk002",
+      "name": "Loving Jesus More",
+      "writer": "Lord Judas",
+      "imageUrl": "https://i.postimg.cc/1zm82gXp/kindpng-2193744-1.png",
+      "description": "An inspirational guide focused on deepening one's personal relationship with Jesus Christ through prayer, reflection, and scripture. This devotional aims to foster a closer connection with the divine, offering daily insights and practices to cultivate a more profound and abiding faith. Discover practical ways to integrate spiritual growth into everyday life.",
+      "tags": ["Christianity", "Devotional", "Faith", "Spirituality", "Religion"],
+      "category": "Religion & Spirituality"
+    },
+    {
+      "id": "bk003",
+      "name": "Cold Case Anity",
+      "writer": "Alice",
+      "imageUrl": "https://i.postimg.cc/YCwGNDwD/kindpng-2592315-1.png",
+      "description": "Dive into a chilling unsolved mystery. Follow detectives as they reopen a forgotten case, uncovering dark secrets and hidden motives long buried. As new evidence surfaces, the lines between past and present blur, forcing investigators to confront a killer who may still be lurking in the shadows. Expect twists and turns in this gripping suspense story.",
+      "tags": ["Mystery", "Thriller", "Crime", "Cold Case", "Suspense", "Detective"],
+      "category": "Mystery & Thriller"
+    },
+    {
+      "id": "bk004",
+      "name": "Scholarship Monthly Planner",
+      "writer": "Lord Hank",
+      "imageUrl": "https://i.postimg.cc/Ss5jnDrr/kindpng-4022054-1.png",
+      "description": "An essential organizational tool for students navigating the scholarship application process. Track deadlines, requirements, and progress month by month to maximize funding opportunities. This planner provides structure and guidance, helping students stay on top of applications and reduce the stress of searching for financial aid.",
+      "tags": ["Planner", "Education", "Students", "Scholarships", "Organization", "Academic"],
+      "category": "Education & Reference"
+    },
+    {
+      "id": "bk005",
+      "name": "Spine of The Dragon",
+      "writer": "Ahmed Sadi",
+      "imageUrl": "https://i.postimg.cc/bvmZhzS4/kindpng-4945926-1.png",
+      "description": "Embark on an epic fantasy journey filled with mythical beasts, ancient magic, and a perilous quest along the legendary Spine of the Dragon mountains. Heroes must rise to face encroaching darkness, battling formidable foes and navigating treacherous landscapes. This tale weaves intricate world-building with high-stakes adventure.",
+      "tags": ["Fantasy", "Adventure", "Magic", "Dragons", "Epic Fantasy", "Quest"],
+      "category": "Fantasy"
+    },
+    {
+      "id": "bk006",
+      "name": "Sakyong Mipham",
+      "writer": "Sakyong Mipham Rinpoche",
+      "imageUrl": "https://i.postimg.cc/DwdWxQvv/kindpng-5624060-1.png",
+      "description": "Explore the teachings of Sakyong Mipham Rinpoche, delving into mindfulness, meditation, and the path to inner peace and enlightenment. This book offers insights into the Shambhala Buddhist tradition, guiding readers towards cultivating innate wisdom, compassion, and courage in their daily lives. Learn practical techniques for mindful living.",
+      "tags": ["Buddhism", "Meditation", "Mindfulness", "Spirituality", "Philosophy", "Tibetan Buddhism"],
+      "category": "Religion & Spirituality"
+    },
+    {
+      "id": "bk007",
+      "name": "Why do you hate Money",
+      "writer": "Hai Menk",
+      "imageUrl": "https://i.postimg.cc/3WQRBNz0/kindpng-7318921.png",
+      "description": "Uncover the psychological barriers and limiting beliefs that might be hindering your financial success. A provocative look at our relationship with money, exploring subconscious attitudes and societal conditioning. This self-help guide aims to transform your money mindset, paving the way for greater abundance and financial freedom.",
+      "tags": ["Finance", "Psychology", "Self-Help", "Money Mindset", "Personal Finance", "Wealth"],
+      "category": "Business & Finance"
+    },
+    {
+      "id": "bk008",
+      "name": "Annotated Taxes Family",
+      "writer": "Kamel Tengi",
+      "imageUrl": "https://i.postimg.cc/XJXpNTwq/kindpng-81724-1.png",
+      "description": "A comprehensive guide to understanding family-related tax laws and regulations, complete with detailed annotations and explanations. Navigate credits, deductions, and filing statuses specific to families with clarity. This essential resource helps taxpayers optimize their returns and ensure compliance with complex tax codes.",
+      "tags": ["Taxes", "Law", "Finance", "Family Law", "Reference", "Accounting"],
+      "category": "Law & Finance"
+    },
+    {
+      "id": "bk009",
+      "name": "Playbook for Men",
+      "writer": "Lord Ant",
+      "imageUrl": "https://i.postimg.cc/RCNP6d9n/pngwing-1.png",
+      "description": "A practical guide offering strategies and advice for men on navigating relationships, career, personal growth, and modern masculinity. Tackle challenges with actionable insights and develop a stronger sense of purpose and direction. This playbook provides tools for building a fulfilling and successful life in today's world.",
+      "tags": ["Self-Help", "Men's Issues", "Relationships", "Personal Development", "Lifestyle", "Masculinity"],
+      "category": "Self-Help"
+    }
+  ]
