@@ -12,6 +12,7 @@ import Home from './components/home/Home.jsx';
 import LogIn from './components/login/LogIn.jsx';
 import SignUp from './components/signUp/SignUp.jsx';
 import PageToRead from './components/pageToRead/PageToRead.jsx';
+import NotFound from './components/notFound/NotFound.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       { path: 'signup', Component: SignUp }
     ]
   },
+  {
+    path: '*',
+    Component: NotFound
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

@@ -28,8 +28,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end flex gap-1 md:gap-2 ">
-                <NavLink to='login'> <a className="btn bg-[#23BE0A] text-white">Log in</a></NavLink>
-                <NavLink to='signup'> <a className="btn bg-[#59C6D2] text-white">Sign Up</a></NavLink>
+                <NavLink to='/login'> <a className="btn bg-[#23BE0A] text-white">Log in</a></NavLink>
+                <NavLink to='/signup'> <a className="btn bg-[#59C6D2] text-white">Sign Up</a></NavLink>
             </div>
         </div>
 
