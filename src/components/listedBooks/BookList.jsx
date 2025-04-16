@@ -2,11 +2,11 @@ import React from 'react';
 import { MdMenuBook } from "react-icons/md";
 import { HiOutlineUserGroup } from "react-icons/hi2";
 import { GiCalendarHalfYear } from "react-icons/gi";
-import { NavLink } from 'react-router';
+import ViewDetails from './ViewDetails';
 
 
 const BookList = ({ bookList }) => {
-    const { id, name, imageUrl, category, writer, tags, rating, publication_name, pages, publication_year } = bookList
+    const { name, imageUrl, category, writer, tags, rating, publication_name, pages, publication_year } = bookList
     const [first, second, third, four] = tags
     return (
         <div className='border-2 border-[#1313130D] rounded-xl p-4'>
@@ -35,10 +35,8 @@ const BookList = ({ bookList }) => {
                     <div className='flex gap-2 items-center flex-wrap'>
                         <button className='btn btn-sm border-none rounded-3xl bg-[#328EFF26] text-[#328EFF]'>{category}</button>
                         <button className='btn btn-sm border-none rounded-3xl bg-[#FFAC3326] text-[#FFAC33]'>Ratings: {rating}</button>
-                        <NavLink to={`details-${id}`}>
-                            <button className='btn btn-sm border-none rounded-3xl bg-[#23BE0A] text-white'>View Details</button>
-                        </NavLink>
-
+                        <ViewDetails bookList={bookList}>
+                        </ViewDetails>
                     </div>
 
                 </div>

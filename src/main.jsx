@@ -12,7 +12,6 @@ import Home from './components/home/Home.jsx';
 import LogIn from './components/login/LogIn.jsx';
 import SignUp from './components/signUp/SignUp.jsx';
 import PageToRead from './components/pageToRead/PageToRead.jsx';
-import ViewDetails from './components/listedBooks/ViewDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,22 +20,17 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: ()=>fetch('books.json'),
+        loader: () => fetch('books.json'),
         Component: Home
       },
-      { 
-        path: '/listed-books',
-        loader: ()=>fetch('books.json'), 
-        Component: ListedBooks 
-      },
       {
-        path: '/listed-books/:bookId',
-        loader: ()=>fetch('books.json'), 
-        Component: ViewDetails,
+        path: '/listed-books',
+        loader: () => fetch('books.json'),
+        Component: ListedBooks
       },
       { path: '/page-to-read', Component: PageToRead },
       { path: 'login', Component: LogIn },
-      { path: 'signup', Component: SignUp}
+      { path: 'signup', Component: SignUp }
     ]
   },
 ]);
