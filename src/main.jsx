@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import {
@@ -13,7 +13,8 @@ import LogIn from './components/login/LogIn.jsx';
 import SignUp from './components/signUp/SignUp.jsx';
 import PageToRead from './components/pageToRead/PageToRead.jsx';
 import NotFound from './components/notFound/NotFound.jsx';
-
+import axios from 'axios';
+const BookPromise=axios.get('books.json')
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,7 +32,9 @@ const router = createBrowserRouter([
       },
       {
         path: '/page-to-read',
-        Component: PageToRead
+        element: <Suspense fallback={<h3 className='text-center'>Loading...</h3>}>
+          <PageToRead BookPromise={BookPromise}></PageToRead>
+        </Suspense>
       },
       { path: 'login', Component: LogIn },
       { path: 'signup', Component: SignUp }

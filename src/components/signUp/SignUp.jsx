@@ -73,7 +73,7 @@ const SignUp = () => {
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                             className={`w-full px-3 py-2 text-black placeholder-gray-500 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-[${customGreenFocusRing}] focus:border-[${customGreen}]`}
-                            placeholder="John Doe"
+                            placeholder="Enter Your Name"
                             required
                             disabled={isLoading}
                         />
