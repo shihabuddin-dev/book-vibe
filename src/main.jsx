@@ -29,7 +29,10 @@ const router = createBrowserRouter([
         loader: () => fetch('books.json'),
         Component: ListedBooks
       },
-      { path: '/page-to-read', Component: PageToRead },
+      {
+        path: '/page-to-read',
+        Component: PageToRead
+      },
       { path: 'login', Component: LogIn },
       { path: 'signup', Component: SignUp }
     ]
