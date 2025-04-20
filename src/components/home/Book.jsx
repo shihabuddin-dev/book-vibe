@@ -2,7 +2,7 @@ import React from 'react';
 import { IoIosStarHalf } from "react-icons/io";
 
 const Book = ({ book }) => {
-    const { name, writer, imageUrl, category, rating, tags } = book
+    const { name, writer, imageUrl, category, rating, tags } = book || {}
     const [first, second, third] = tags
 
     return (
